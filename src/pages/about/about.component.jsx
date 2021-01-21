@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.styles.css";
-import Profile from "../../assets/img/profile/Profile.webp";
+import Profile from "../../assets/img/profile/Profile1.webp";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 
@@ -28,21 +28,24 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Swati Ashok Shelke</strong>
-                <br />A passionate programmer and a Coach, born and brought up
-                in India. I am a Full Stack Web Developer with React.js,
-                Redux,as my tech stack.
                 <br />
-                In 2015, I successfully completed my Engineering with
-                specialization in 'Electronics and Telecommunication'.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A passionate
+                programmer and a Coach, born and brought up in India. I am a
+                Full Stack Web Developer with React.js,Redux,as my tech stack.
                 <br />
-                Working with the clients, my goal is always driven towards
-                providing amazing experience with the best level of quality and
-                service to them.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In 2015, I
+                successfully completed my Engineering with specialization in
+                'Electronics and Telecommunication'.
                 <br />
-                Along with that, I also help people as a COACH on their journey
-                of becoming a professional programmer. I love learning about new
-                technologies, what problems are they solving and How can I use
-                them to build better and scalable products.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Working with the
+                clients, my goal is always driven towards providing amazing
+                experience with the best level of quality and service to them.
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Along with that, I
+                also help people as a COACH on their journey of becoming a
+                professional programmer. I love learning about new technologies,
+                what problems are they solving and How can I use them to build
+                better and scalable products.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
