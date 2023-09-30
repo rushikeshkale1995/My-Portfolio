@@ -20,7 +20,7 @@ const ContactForm = () => {
               >
                 <Button
                   variant="outline-danger"
-                  title="ghogareswati14@gmail.com"
+                  title="dnyaneshg121@gmail.com"
                 >
                   <i className="fas fa-envelope-square"></i> Email Me
                 </Button>
@@ -28,7 +28,7 @@ const ContactForm = () => {
             </div>
             <div className="m-2">
               <a
-                href="https://www.linkedin.com/in/swati-shelke/"
+                href="https://www.linkedin.com/in/dnyaneshwar-gaikwad-3a664021a/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -39,7 +39,7 @@ const ContactForm = () => {
             </div>
             <div className="m-2">
               <a
-                href="https://github.com/Swati-Shelke-au8"
+                href="https://github.com/dnyanesh121"
                 target="_blank"
                 rel="noopener noreferrer"
               >

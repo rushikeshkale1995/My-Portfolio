@@ -21,6 +21,9 @@ const MyTitleMessage = styled.h1`
     letter-spacing: 7px;
 
     .main {
+      font-size: 40px;
+    }
+    .main span h2{
       font-size: 50px;
     }
 
@@ -39,13 +42,13 @@ const TitleMessage = () => (
           Hi, I am
           <br />
           <span>
-            <strong>Swati Ashok Shelke</strong>
+            <h2>Dnyaneshwar Arun Gaikwad</h2>
           </span>
         </div>
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["Web Developer", "Coach", "Learner"],
+              strings: ["Web Developer", "Programmer", "Learner"],
               autoStart: true,
               loop: true,
               delay: 50,

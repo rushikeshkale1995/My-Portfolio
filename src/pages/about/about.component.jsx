@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.styles.css";
-import Profile from "../../assets/img/profile/Profile1.webp";
+import Profile from "../../assets/img/profile/Profile2.jpg";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 
@@ -27,15 +27,14 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Swati Ashok Shelke</strong>
+                Hi there! I am <strong>&nbsp;Dnyaneshwar Arun Gaikwad</strong>
                 <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A passionate
-                programmer and a Coach, born and brought up in India. I am a
-                Full Stack Web Developer with React.js,Redux,as my tech stack.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A passionate programmer
+                and a Coach,born and brought up in India.
+                I am a Front End Developer with React.js as my tech stack.
                 <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In 2015, I
-                successfully completed my Engineering with specialization in
-                'Electronics and Telecommunication'.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In 2022, I successfully 
+                completed my Msc with specialization in 'Computer Science'.
                 <br />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Working with the
                 clients, my goal is always driven towards providing amazing
@@ -57,7 +56,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/1CGbLytq9ZzTLdyUraxxI-rH82n3UmI6G/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1T1D9HSRyerSTDNlIJSsbZhktcTbbKrbG/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -68,7 +67,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://github.com/Swati-Shelke-au8"
+                      href="https://github.com/dnyanesh121"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -79,7 +78,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://www.linkedin.com/in/swati-shelke/"
+                      href="https://www.linkedin.com/in/dnyaneshwar-gaikwad-3a664021a/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

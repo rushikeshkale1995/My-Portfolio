@@ -131,12 +131,6 @@ const TimeLine = () => {
                 >
                   SEE LIVE
                 </UrlButton>
-                <UrlButton
-                  href="https://github.com/attainu/Food-order-app/tree/dev"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
               </div>
             </div>
           </ImageEvent>
@@ -243,12 +237,6 @@ const TimeLine = () => {
                   target="_blank"
                 >
                   SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/Swati-Shelke-au8/Covid-19"
-                  target="_blank"
-                >
-                  SOURCE CODE
                 </UrlButton>
               </div>
             </div>
@@ -358,12 +346,6 @@ const TimeLine = () => {
                 >
                   SEE LIVE
                 </UrlButton>
-                <UrlButton
-                  href="https://github.com/Swati-Shelke-au8/githubJobs"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
               </div>
             </div>
           </ImageEvent>
@@ -460,12 +442,6 @@ const TimeLine = () => {
                   target="_blank"
                 >
                   SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/Swati-Shelke-au8/CountryInfo"
-                  target="_blank"
-                >
-                  SOURCE CODE
                 </UrlButton>
               </div>
             </div>
