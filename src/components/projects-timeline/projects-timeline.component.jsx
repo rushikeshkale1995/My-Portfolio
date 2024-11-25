@@ -2,21 +2,20 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
+import bitcode from "../../assets/img/projects/Bitcode.png"
 import L_KNOWYORRESTAURANT from "../../assets/img/projects/KnowYourRestautant.webp";
-import L_COVIDTRACKER from "../../assets/img/projects/covid-19tracker.webp";
-import L_GITHUBJOBS from "../../assets/img/projects/GitHubJobs.webp";
-import L_ALLCOUNTRYINFORMATION from "../../assets/img/projects/AllCountryInformation.webp";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
-
+import Showme from "../../assets/img/projects/ShowMe.png"
+import PlobalApps from "../../assets/img/projects/Plobal_Apps.png"
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
-import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import Image from "react-bootstrap/Image";
 import L_REDUX from "../../assets/img/skills/redux.svg";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
+import Shopify from "../../assets/img/skills/shopify.png"
 
 import "./projects-timeline.styles.css";
 
@@ -135,12 +134,12 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-          {/* Project: Smart Brain */}
+          {/* Project: Bitcode institute */}
           <ImageEvent
             className="text-center"
-            text="COVID-19 TRACKER"
-            src={L_COVIDTRACKER}
-            alt="COVID-19 TRACKER"
+            text="Bitcode institute"
+            src={bitcode}
+            alt="Bitcode institute"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -156,15 +155,17 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> I made this using the
-                        corona database API to show and use JS skills to show on
-                        the screen. This is a perfect project for the
-                        introduction to the world of React and API's. It's fully
-                        responsive and functional in different screen sizes.
+                        <strong>Description:</strong> This Website is based on
+                        ReactJS. It is fetching data from API. This website is
+                        showing the data of courses. Student can search
+                        for the data of a specific course as well as a
+                        Placement. This is a very useful institute for the Student .
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Keep tracks of corona for each country</li>
+                          <li>Search any Course</li>
+                          <li>Register new user</li>
+                          <li>Signin exiting user</li>
                           <li>Real-time API calls</li>
                         </ul>
                         <hr />
@@ -233,7 +234,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://swati-covid-19-app.netlify.app/"
+                  href="https://www.bitcode.in/"
                   target="_blank"
                 >
                   SEE LIVE
@@ -242,13 +243,12 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-          {/* Project: RoboFriends */}
-
+          {/* Project: Showme Your mumu */}
           <ImageEvent
             className="text-center"
-            text="GITHUB JOBS​"
-            src={L_GITHUBJOBS}
-            alt="GITHUB JOBS​"
+            text="Show Me your Mumu"
+            src={Showme}
+            alt="Show Me your Mumu"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -264,16 +264,15 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> I made this using the jobs
-                        GitHub API to show and use JS skills to show on the
-                        screen. This is a perfect project for the introduction
-                        to the world of React and API's. It's fully responsive
-                        and functional in different screen sizes.
+                        <strong>Description:</strong> - Integrated Shopify features, such as product listing, cart functionality, and checkout process, ensuring a 
+                        seamless shopping experience. 
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Search Jobs</li>
-                          <li>Jobs being fetched via API call</li>
+                          <li>New trending Cloths</li>
+                          <li>Register new user</li>
+                          <li>Signin exiting user</li>
+                          <li>Real-time API calls</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -314,6 +313,17 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
+                                src={Shopify}
+                                alt="Shopify"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
                                 src={L_BOOTSTRAP4}
                                 alt="Bootstrap 4"
                                 rounded
@@ -341,7 +351,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://swati-githubjobsportal.netlify.app/"
+                  href="https://showmeyourmumu.com/"
                   target="_blank"
                 >
                   SEE LIVE
@@ -350,13 +360,12 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-          {/* Project: Product_Hunt_Clone */}
-
-          <ImageEvent
+              {/* Project: Plobal Apps */}
+              <ImageEvent
             className="text-center"
-            text="ALL COUNTRIES INFO​"
-            src={L_ALLCOUNTRYINFORMATION}
-            alt="ALL COUNTRIES INFO​"
+            text="Plobal Apps"
+            src={PlobalApps}
+            alt="Plobal Apps"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -372,16 +381,15 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This app is based on
-                        JavaScript. It is fetching data from API. This app is
-                        showing the data of every country. Users can search for
-                        the data of a specific country. This is a very useful
-                        Web App.
+                        <strong>Description:</strong> -Plobal Apps is a leading mobile app platform specializing in creating high-performance mobile apps for e-commerce businesses. It empowers online stores to easily convert their websites into native mobile apps, enabling seamless customer experiences and boosting sales. With a focus on Shopify and other e-commerce platforms, Plobal Apps provides a user-friendly solution for businesses looking to engage their customers on mobile devices and increase conversions.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Search any Country Information</li>
+                          <li>Fast Checkout</li>
+                          <li>Third-party Integrations</li>
+                          <li>Product Recommendations</li>
                           <li>Real-time API calls</li>
+                          <li>In-app Analytics</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -411,6 +419,28 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={Shopify}
+                                alt="Shopify"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Shopify
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
                                 src={L_BOOTSTRAP4}
                                 alt="Bootstrap 4"
                                 rounded
@@ -422,12 +452,12 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_JAVASCRIPT}
-                                alt="JavaScript"
+                                src={L_REDUX}
+                                alt="Redux"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              JavaScript
+                              Redux
                             </span>
                           </li>
                         </ul>
@@ -438,7 +468,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://swati-allcountryinformation.netlify.app/"
+                  href="https://www.plobalapps.com/"
                   target="_blank"
                 >
                   SEE LIVE
@@ -446,6 +476,7 @@ const TimeLine = () => {
               </div>
             </div>
           </ImageEvent>
+         
         </Events>
       </Timeline>
     </div>

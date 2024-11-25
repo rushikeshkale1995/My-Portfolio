@@ -1,6 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import styled from "styled-components";
+import "./title-message.style.css"
 
 const MyTitleMessage = styled.h1`
   position: absolute;
@@ -30,19 +31,19 @@ const MyTitleMessage = styled.h1`
     .sub {
       font-size: 27px;
       letter-spacing: 2px;
+      font-weight: bold;
     }
   }
 `;
 
 const TitleMessage = () => (
   <MyTitleMessage>
-    <div className="titleMessage">
+    <div className="titleMessage" >
       <div className="heading">
         <div className="main text-center mb-3">
           Hi, I am
-          <br />
           <span>
-            <h2>Dnyaneshwar Arun Gaikwad</h2>
+            <h2>Rushikesh Ramchandra Kale</h2>
           </span>
         </div>
         <div className="sub">
@@ -51,7 +52,7 @@ const TitleMessage = () => (
               strings: ["Web Developer", "Programmer", "Learner"],
               autoStart: true,
               loop: true,
-              delay: 50,
+              delay: 100,
             }}
           />
         </div>

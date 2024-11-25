@@ -11,7 +11,7 @@ import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_NETLIFY from "../../assets/img/skills/netlify.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
-import L_JAVA from "../../assets/img/skills/java.svg";
+import L_MOONGODB from "../../assets/img/skills/mongodb-icon-2.svg"
 
 export const skills = {
   frontend: [
@@ -92,12 +92,7 @@ export const skills = {
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
-    {
-      link: "https://www.java.com/",
-      imgAltText: "Java",
-      imgSrc: L_JAVA,
-      skillName: "Java",
-    },
+   
   ],
   databases: [
     {
@@ -106,6 +101,12 @@ export const skills = {
       imgSrc: L_MSSQL,
       skillName: "MS-SQL",
     },
+    {
+      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
+      imgAltText: "MongoDB",
+      imgSrc: L_MOONGODB,
+      skillName: "MongoDB",
+    }
   ],
   versionControl: [
     {
@@ -116,3 +117,5 @@ export const skills = {
     },
   ],
 };
+
+export default skills;

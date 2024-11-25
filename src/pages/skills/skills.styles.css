@@ -2,6 +2,11 @@
   transition: transform 0.3s;
 }
 
+h1{
+
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .focus:hover {
   transform: scale(1.05);
 }

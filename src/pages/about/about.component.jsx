@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.styles.css";
-import Profile from "../../assets/img/profile/Profile2.jpg";
+import Profile from "../../assets/img/profile/RushiPicture.PNG";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 
@@ -27,24 +27,16 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Dnyaneshwar Arun Gaikwad</strong>
+                Hi there! I am <strong>&nbsp; Rushikesh Ramchandra Kale</strong>
                 <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A passionate programmer
-                and a Coach,born and brought up in India.
-                I am a Front End Developer with React.js as my tech stack.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I am a passionate Frontend Developer with over 2 years of experience in building responsive and dynamic web applications. I specialize in ReactJS, JavaScript, HTML5, CSS3, and Shopify, and have a strong background in creating seamless user experiences. My expertise extends to technical support, ensuring smooth application performance and troubleshooting issues promptly.
+                <br /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Currently, I work at Plobal Apps, where I have successfully delivered several web development projects, contributing to both frontend and backend workflows. I am constantly driven by my passion for clean code, problem-solving, and creating user-centric designs.
+                <br /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With a keen eye for detail and a commitment to excellence, I’m excited about opportunities that allow me to build innovative digital solutions and grow in the ever-evolving field of web development.
+
                 <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In 2022, I successfully 
-                completed my Msc with specialization in 'Computer Science'.
-                <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Working with the
-                clients, my goal is always driven towards providing amazing
-                experience with the best level of quality and service to them.
-                <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Along with that, I
-                also help people as a COACH on their journey of becoming a
-                professional programmer. I love learning about new technologies,
-                what problems are they solving and How can I use them to build
-                better and scalable products.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
@@ -56,7 +48,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/1T1D9HSRyerSTDNlIJSsbZhktcTbbKrbG/view?usp=sharing"
+                      href="https://drive.google.com/file/d/17K3xQs6RDXNaOM6iY-r0yWb3q5sgq6fQ/view?usp=drive_link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -67,7 +59,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://github.com/dnyanesh121"
+                      href="https://github.com/rushikeshkale1995"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -78,7 +70,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://www.linkedin.com/in/dnyaneshwar-gaikwad-3a664021a/"
+                      href="https://www.linkedin.com/in/rushikesh-kale-16616923a/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

@@ -10,6 +10,7 @@
 .animate-navbar {
   box-shadow: 1px 1px 1px #222;
   animation: moveDown 0.5s ease-in-out;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 @keyframes moveDown {

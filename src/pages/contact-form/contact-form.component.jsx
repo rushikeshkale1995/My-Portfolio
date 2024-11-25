@@ -14,13 +14,13 @@ const ContactForm = () => {
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
               <a
-                href="mailto:ghogareswati14@gmail.com"
+                href="mailto:rushikeshkale1995@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button
                   variant="outline-danger"
-                  title="dnyaneshg121@gmail.com"
+                  title="rushikeshkale1995@gmail.com"
                 >
                   <i className="fas fa-envelope-square"></i> Email Me
                 </Button>
@@ -28,7 +28,7 @@ const ContactForm = () => {
             </div>
             <div className="m-2">
               <a
-                href="https://www.linkedin.com/in/dnyaneshwar-gaikwad-3a664021a/"
+                href="https://www.linkedin.com/in/rushikesh-kale-16616923a/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -39,7 +39,7 @@ const ContactForm = () => {
             </div>
             <div className="m-2">
               <a
-                href="https://github.com/dnyanesh121"
+                href="https://github.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
